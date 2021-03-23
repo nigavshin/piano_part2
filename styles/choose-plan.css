@@ -1,9 +1,28 @@
 .choose-plan {
- margin-top: 126px;
+  margin-top: 126px;
 }
-.choose-plan__title{
-    text-align: center;
+.choose-plan__title {
+  text-align: center;
 }
-.choose-plan__description{
-    text-align: center;
+.choose-plan__description {
+  text-align: center;
+  margin: 30px 0;
+}
+.choose-plan__wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+.choose-plan__item {
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  max-width: 330px;
+  width: 100%;
+}
+.choose-plan__ill-free {
+  display: block;
+  margin: 0 auto;
 }
