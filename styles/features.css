@@ -4,6 +4,9 @@
   align-items: flex-end;
   margin-top: 96px;
 }
+.features__title {
+  text-align: left !important;
+}
 .features__block {
   max-width: 430px;
 }
@@ -18,8 +21,8 @@
   align-items: center;
   margin-bottom: 15px;
 }
-.features__list:last-child{
-    margin-bottom: 0;
+.features__list:last-child {
+  margin-bottom: 0;
 }
 .features__text {
   font-size: 14px;

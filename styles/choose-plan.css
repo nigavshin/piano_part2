@@ -7,6 +7,9 @@
 .choose-plan__description {
   text-align: center;
   margin: 30px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
 }
 .choose-plan__wrap {
   display: flex;

@@ -3,6 +3,10 @@
 @import url("./advantages.css");
 @import url("./features.css");
 @import url("./choose-plan.css");
+@import url("./global-net.css");
+@import url("./trusted-customer.css");
+@import url("./subscribe.css");
+@import url("./footer.css");
 
 @font-face {
   font-family: "Rubik", sans-serif;
@@ -44,7 +48,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -109,4 +115,15 @@ button:hover {
   font-size: 35px;
   line-height: 50px;
   color: #0b132a;
+  text-align: center;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-top: 20px;
+}
+blockquote {
+  margin: 0;
 }
