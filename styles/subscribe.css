@@ -1,4 +1,12 @@
 .subscribe {
+  position: absolute;
+  max-width: 1160px;
+  width: 100%;
+  bottom: -305px;
+  left: 5%;
+}
+
+.subscribe__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,16 +15,20 @@
   border-radius: 10px;
   position: relative;
 }
-.subscribe::after {
+
+.subscribe__wrapper::after {
   position: absolute;
   content: " ";
-  top: 52px;
-  left: 35px;
-  background: #0d1025;
-  opacity: 0.06;
+  top: 16px;
+  left: 31px;
+  width: 1077px;
+  height: 250px;
+  background: rgba(13, 16, 37, 0.06);
   filter: blur(114px);
   border-radius: 10px;
+  z-index: -1;
 }
+
 .subscribe__title {
   font-weight: 600;
   font-size: 35px;
@@ -24,6 +36,7 @@
   max-width: 370px;
   margin: 0;
 }
+
 .subscribe__subtitle {
   font-size: 16px;
   line-height: 30px;
@@ -41,6 +54,7 @@
   font-size: 16px;
   position: relative;
 }
+
 .subscribe__button::after {
   position: absolute;
   content: " ";

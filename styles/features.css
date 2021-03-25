@@ -3,27 +3,36 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 96px;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding:95px 0 130px 0;
 }
+
 .features__title {
   text-align: left !important;
 }
+
 .features__block {
   max-width: 430px;
 }
+
 .features__description {
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
   margin: 20px 0;
 }
+
 .features__list {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
+
 .features__list:last-child {
   margin-bottom: 0;
 }
+
 .features__text {
   font-size: 14px;
   line-height: 30px;

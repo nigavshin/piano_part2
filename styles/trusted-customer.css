@@ -1,8 +1,19 @@
+.trusted-customer {
+  margin-bottom: 180px;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-top: 50px;
+}
+.trusted-customer__subtitle {
+  margin: 0 auto;
+  max-width: 555px;
+}
 .trusted-customer__slider {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
 }
+
 .trusted-customer__item {
   border: 2px solid #dddddd;
   border-radius: 10px;
@@ -11,50 +22,62 @@
   width: 100%;
   position: relative;
 }
+
 .trusted-customer__datauser {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
+
 .trusted-customer__rating {
   display: flex;
   position: absolute;
   top: 48px;
   right: 30px;
 }
+
 .trusted-customer__username {
   margin-left: 20px;
 }
+
 .trusted-customer__name {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
 }
+
 .trusted-customer__born {
   font-size: 14px;
   color: #4f5665;
 }
+
 .trusted-customer__text {
   font-size: 16px;
   line-height: 30px;
   margin-right: 10px;
 }
+
 .trusted-customer__button {
   border: 2px solid #f53838;
   border-radius: 50px;
   width: 60px;
   height: 60px;
   padding: 20px;
-}
-.button--left {
   background-color: #ffffff;
   margin-right: 20px;
 }
-.button--right {
+
+
+.button--active {
   background-color: #f53838;
 }
+
 .trusted-customer__control {
   display: flex;
   justify-content: flex-end;
   margin-top: 60px;
+}
+
+.trusted-customer__circle {
+  border-radius: 50%;
 }

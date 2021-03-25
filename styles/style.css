@@ -13,11 +13,13 @@
   src: url(./fonts/Rubik-Regular.ttf);
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Rubik", sans-serif;
   src: url(./fonts/Rubik-Medium.ttf);
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Rubik", "Arial", sans-serif;
   src: url(./fonts/Rubik-Bold.ttf);
@@ -30,7 +32,6 @@ body {
   padding: 0;
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
-  background-color: #f6f6f6;
 }
 
 .visually-hidden {
@@ -102,13 +103,16 @@ button {
   text-shadow: none;
   border: 0;
 }
+
 button:hover {
   cursor: pointer;
 }
+
 * {
   -webkit-text-size-adjust: none;
   box-sizing: border-box;
 }
+
 .title {
   font-style: normal;
   font-weight: 600;
@@ -117,6 +121,7 @@ button:hover {
   color: #0b132a;
   text-align: center;
 }
+
 .subtitle {
   font-size: 16px;
   line-height: 30px;
@@ -124,6 +129,15 @@ button:hover {
   color: #4f5665;
   margin-top: 20px;
 }
+
 blockquote {
   margin: 0;
+}
+
+.main__linbckgnd {
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
 }

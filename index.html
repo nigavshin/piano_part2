@@ -11,13 +11,14 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <img
-          class="header__logo"
-          src="./img/logo.svg"
-          width="149"
-          height="36"
-          alt="lasslessvpn-logo"
-        />
+        <a class="header__link-logo" href="#">
+          <img
+            class="header__logo"
+            src="./img/logo.svg"
+            width="149"
+            height="36"
+            alt="lasslessvpn-logo"
+        /></a>
         <ul class="header__menu">
           <li class="header__item">
             <a class="header__link" href="#">About</a>
@@ -91,7 +92,6 @@
               <p class="advantages__description">Users</p>
             </div>
           </div>
-          <hr class="advantages__line" />
           <div class="advantages__item">
             <img
               class="advantages__location"
@@ -105,7 +105,6 @@
               <p class="advantages__description">Location</p>
             </div>
           </div>
-          <hr class="advantages__line" />
           <div class="advantages__item">
             <img
               class="advantages__server"
@@ -184,257 +183,263 @@
         </div>
       </section>
 
-      <section class="choose-plan">
-        <h2 class="title choose-plan__title">Choose Your Plan</h2>
-        <p class="choose-plan__description subtitle">
-          Let's choose the package that is best for you and explore it happily
-          <br />
-          and cheerfully.
-        </p>
-        <div class="choose-plan__wrap">
-          <div class="choose-plan__item">
-            <img
-              class="choose-plan__ill-free"
-              src="./img/illustration-free.svg"
-              width="145"
-              height="165"
-              alt="illustration-free"
-            />
-            <p class="choose-plan__description">Free Plan</p>
-            <ul class="choose-plan__list--item">
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Unlimited Bandwitch</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Encrypted Connection</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">No Traffic Logs</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Works on All Devices</p>
-              </li>
-            </ul>
-            <h3 class="choose-plan__subtitle">Free</h3>
-            <button class="button choose-plan__button" type="button">
-              Select
-            </button>
+      <div class="main__linbckgnd">
+        <section class="choose-plan">
+          <h2 class="title choose-plan__title">Choose Your Plan</h2>
+          <p class="choose-plan__description subtitle">
+            Let's choose the package that is best for you and explore it happily
+            and cheerfully.
+          </p>
+          <div class="choose-plan__wrap">
+            <div class="choose-plan__item">
+              <img
+                class="choose-plan__ill-free"
+                src="./img/illustration-free.svg"
+                width="145"
+                height="165"
+                alt="illustration-free"
+              />
+              <p class="choose-plan__description">Free Plan</p>
+              <ul class="choose-plan__roster">
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Unlimited Bandwitch</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Encrypted Connection</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">No Traffic Logs</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Works on All Devices</p>
+                </li>
+              </ul>
+              <div class="choose-plan__cta">
+                <h3 class="choose-plan__subtitle">Free</h3>
+                <button class="button choose-plan__button" type="button">
+                  Select
+                </button>
+              </div>
+            </div>
+            <div class="choose-plan__item">
+              <img
+                class="choose-plan__ill-free"
+                src="./img/illustration-free.svg"
+                alt="illustration-free"
+                width="145"
+                height="165"
+              />
+              <p class="choose-plan__description">Standart Plan</p>
+              <ul class="choose-plan__roster">
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Unlimited Bandwitch</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Encrypted Connection</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Yes Traffic Logs</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Works on All Devices</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Connect Anyware</p>
+                </li>
+              </ul>
+              <div class="choose-plan__cta">
+                <h3 class="choose-plan__subtitle">
+                  $9 <span class="choose-plan__light">/ mo</span>
+                </h3>
+                <button class="button choose-plan__button" type="button">
+                  Select
+                </button>
+              </div>
+            </div>
+            <div class="choose-plan__item">
+              <img
+                class="choose-plan__ill-free"
+                src="./img/illustration-free.svg"
+                width="145"
+                height="165"
+                alt="illustration-free"
+              />
+              <p class="choose-plan__description">Premium Plan</p>
+              <ul class="choose-plan__roster">
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Unlimited Bandwitch</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Encrypted Connection</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">No Traffic Logs</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Works on All Devices</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Connect Anyware</p>
+                </li>
+                <li class="choose-plan__list">
+                  <img
+                    class="choose-plan__check-2"
+                    src="./img/check-2.svg"
+                    width="24"
+                    height="24"
+                    alt="check-2"
+                  />
+                  <p class="choose-plan__text">Get New Features</p>
+                </li>
+              </ul>
+              <div class="choose-plan__cta">
+                <h3 class="choose-plan__subtitle">
+                  $12 <span class="choose-plan__light">/ mo</span>
+                </h3>
+                <button class="button choose-plan__button" type="button">
+                  Select
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="choose-plan__item">
-            <img
-              class="choose-plan__ill-free"
-              src="./img/illustration-free.svg"
-              alt="illustration-free"
-              width="145"
-              height="165"
-            />
-            <p class="choose-plan__description">Standart Plan</p>
-            <ul class="choose-plan__list--item">
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Unlimited Bandwitch</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Encrypted Connection</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Yes Traffic Logs</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Works on All Devices</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Connect Anyware</p>
-              </li>
-            </ul>
-            <h3 class="choose-plan__subtitle">
-              $9 <span class="choose-plan__light">/ mo</span>
-            </h3>
-            <button class="button choose-plan__button" type="button">
-              Select
-            </button>
-          </div>
-          <div class="choose-plan__item">
-            <img
-              class="choose-plan__ill-free"
-              src="./img/illustration-free.svg"
-              width="145"
-              height="165"
-              alt="illustration-free"
-            />
-            <p class="choose-plan__description">Premium Plan</p>
-            <ul class="choose-plan__list--item">
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Unlimited Bandwitch</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Encrypted Connection</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">No Traffic Logs</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Works on All Devices</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Connect Anyware</p>
-              </li>
-              <li class="choose-plan__list">
-                <img
-                  class="choose-plan__check-2"
-                  src="./img/check-2.svg"
-                  width="24"
-                  height="24"
-                  alt="check-2"
-                />
-                <p class="choose-plan__text">Get New Features</p>
-              </li>
-            </ul>
-            <h3 class="choose-plan__subtitle">
-              $12 <span class="choose-plan__light">/ mo</span>
-            </h3>
-            <button class="button choose-plan__button" type="button">
-              Select
-            </button>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="global-net">
-        <h2 class="global-net__title title">Huge Global Network of Fast VPN</h2>
-        <p class="global-net__subtitle subtitle">
-          See <strong class="text-accent">LaslesVPN</strong> everywhere to make
-          it easier for you when you move <br />
-          locations.
-        </p>
-        <img
-          class="global-net__lassmap"
-          src="./img/huge-global.svg"
-          width="1060"
-          height="538"
-          alt="global-lassmap"
-        />
-        <img
-          class="global-net__sponsors"
-          src="./img/sponsored.svg"
-          width="1136"
-          height="538"
-          alt="logo-sponsors"
-        />
-      </section>
-
+        <section class="global-net">
+          <h2 class="global-net__title title">
+            Huge Global Network of Fast VPN
+          </h2>
+          <p class="global-net__subtitle subtitle">
+            See <strong class="text-accent">LaslesVPN</strong> everywhere to
+            make it easier for you when you move locations.
+          </p>
+          <img
+            class="global-net__lassmap"
+            src="./img/huge-global.svg"
+            width="1060"
+            height="538"
+            alt="global-lassmap"
+          />
+          <img
+            class="global-net__sponsors"
+            src="./img/sponsored.svg"
+            width="1136"
+            height="538"
+            alt="logo-sponsors"
+          />
+        </section>
+      </div>
       <section class="trusted-customer">
         <h2 class="title trusted-customer__title">
           Trusted by Thousands of Happy Customer
         </h2>
         <p class="trusted-customer__subtitle subtitle">
           These are the stories of our customers who have joined us with great
-          <br />
           pleasure when using this crazy feature.
         </p>
         <div class="trusted-customer__slider">
           <div class="trusted-customer__item">
             <div class="trusted-customer__datauser">
               <img
-                class="trusted-customer__riezh-robert"
+                class="trusted-customer__circle"
                 src="./img/riezh-robert.svg"
                 width="50"
                 height="50"
@@ -464,7 +469,7 @@
           <div class="trusted-customer__item">
             <div class="trusted-customer__datauser">
               <img
-                class="trusted-customer__yessica-christy"
+                class="trusted-customer__circle"
                 src="./img/yessica-christy.svg"
                 width="50"
                 height="50"
@@ -493,7 +498,7 @@
           <div class="trusted-customer__item">
             <div class="trusted-customer__datauser">
               <img
-                class="trusted-customer__kim-young"
+                class="trusted-customer__circle"
                 src="./img/kim-young-jou.svg"
                 width="50"
                 height="50"
@@ -522,7 +527,7 @@
         </div>
         <div class="trusted-customer__control">
           <button
-            class="trusted-customer__button button button--left"
+            class="trusted-customer__button button button--disabled"
             type="button"
           >
             <img
@@ -534,7 +539,7 @@
             />
           </button>
           <button
-            class="trusted-customer__button button button--right"
+            class="trusted-customer__button button button--active"
             type="button"
           >
             <img
@@ -549,119 +554,125 @@
       </section>
 
       <section class="subscribe">
-        <div class="subscribe__text">
-          <h4 class="subscribe__title">
-            Subscribe Now for Get Special Features!
-          </h4>
-          <p class="subscribe__subtitle">
-            Let's subscribe with us and find the fun.
-          </p>
+        <div class="subscribe__wrapper">
+          <div class="subscribe__text">
+            <h4 class="subscribe__title">
+              Subscribe Now for Get Special Features!
+            </h4>
+            <p class="subscribe__subtitle">
+              Let's subscribe with us and find the fun.
+            </p>
+          </div>
+          <button class="button subscribe__button" type="button">
+            Subscribe Now
+          </button>
         </div>
-        <button class="button subscribe__button" type="button">
-          Subscribe Now
-        </button>
       </section>
     </main>
+
     <footer class="footer">
-      <div class="footer__about">
-        <img
-          class="footer__logo"
-          src="./img/logo.svg"
-          width="149"
-          height="36"
-          alt="lasslessvpn-logo"
-        />
-        <p class="footer__description">
-          LaslesVPN is a private virtual network that has unique features and
-          has high security.
-        </p>
-        <div class="footer__socials">
-          <a class="footer__link" href="#"
-            ><img
-              class="footer__facebook"
-              src="./img/facebook.svg"
-              width="34"
-              height="34"
-              alt="facebook"
-          /></a>
-          <a class="footer__link" href="#"
-            ><img
-              class="footer__twitter"
-              src="./img/twitter.svg"
-              width="34"
-              height="34"
-              alt="twitter"
-          /></a>
-          <a class="footer__link" href="#">
+      <div class="footer__wrapper">
+        <div class="footer__about">
+          <a class="footer__link-logo" href="#">
             <img
-              class="footer__instagram"
-              src="./img/instagram.svg"
-              width="34"
-              height="34"
-              alt="instagram"
+              class="footer__logo"
+              src="./img/logo__footer.svg"
+              width="149"
+              height="36"
+              alt="lasslessvpn-logo-footer"
           /></a>
+          <p class="footer__description">
+            LaslesVPN is a private virtual network that has unique features and
+            has high security.
+          </p>
+          <div class="footer__socials">
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__facebook"
+                src="./img/facebook.svg"
+                width="34"
+                height="34"
+                alt="facebook"
+            /></a>
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__twitter"
+                src="./img/twitter.svg"
+                width="34"
+                height="34"
+                alt="twitter"
+            /></a>
+            <a class="footer__link" href="#">
+              <img
+                class="footer__instagram"
+                src="./img/instagram.svg"
+                width="34"
+                height="34"
+                alt="instagram"
+            /></a>
+          </div>
+          <p class="footer__law">©2020LaslesVPN</p>
         </div>
-        <p class="footer__law">©2020LaslesVPN</p>
+        <nav class="footer__header">
+          <div class="footer__item">
+            <h5 class="footer__subtitle">Product</h5>
+            <ul class="footer__checklist">
+              <li class="footer__list">
+                <a class="footer__link" href="#">Download</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Pricing</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Locations</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Server</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Countries</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__subtitle">Engage</h5>
+            <ul class="footer__checklist">
+              <li class="footer__list">
+                <a class="footer__link" href="#">LaslesVPN ? </a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">FAQ</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Tutorials</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">About Us</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Privacy Policy</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__subtitle">Earn Money</h5>
+            <ul class="footer__checklist">
+              <li class="footer__list">
+                <a class="footer__link" href="#">Affiliate</a>
+              </li>
+              <li class="footer__list">
+                <a class="footer__link" href="#">Become Partner</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <nav class="footer__header">
-        <div class="footer__item">
-          <h5 class="footer__subtitle">Product</h5>
-          <ul class="footer__checklist">
-            <li class="footer__list">
-              <a class="footer__link" href="#">Download</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Pricing</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Locations</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Server</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Countries</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__item">
-          <h5 class="footer__subtitle">Engage</h5>
-          <ul class="footer__checklist">
-            <li class="footer__list">
-              <a class="footer__link" href="#">LaslesVPN ? </a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">FAQ</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Tutorials</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">About Us</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Privacy Policy</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Terms of Service</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__item">
-          <h5 class="footer__subtitle">Earn Money</h5>
-          <ul class="footer__checklist">
-            <li class="footer__list">
-              <a class="footer__link" href="#">Affiliate</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Become Partner</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
     </footer>
   </body>
 </html>

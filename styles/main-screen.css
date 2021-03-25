@@ -1,15 +1,19 @@
 .main {
-  margin: 0 auto;
-  max-width: 1140px;
+  position: relative;
 }
+
 .main-screen {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
+
 .main-screen_wrap {
   width: 555px;
   max-width: 100%;
+  margin-left: 6%;
 }
+
 .main-screen__title {
   margin-top: 130px;
   font-weight: 500;
@@ -17,11 +21,13 @@
   line-height: 70px;
   margin-bottom: 20px;
 }
+
 .main-screen__text {
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
 }
+
 .main-screen__button {
   background-color: #f53838;
   color: #ffffff;
@@ -33,6 +39,7 @@
   margin-top: 50px;
   position: relative;
 }
+
 .main-screen__button::after {
   position: absolute;
   content: " ";
@@ -44,6 +51,8 @@
   filter: blur(54px);
   border-radius: 10px;
 }
+
 .main-screen__illustration {
   margin-top: 89px;
+  margin-right: 2%;
 }

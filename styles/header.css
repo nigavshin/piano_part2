@@ -5,9 +5,11 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .header {
   margin-top: 60px;
 }
+
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -17,17 +19,38 @@
   font-size: 16px;
   line-height: 19px;
 }
+
 .header__link {
   color: #4f5665;
 }
+
+.header__link:hover {
+  color: #f53855;
+}
+
 .header__button {
   font-weight: 600;
 }
+
 .header__button--sign-up {
   border: 1px solid #f53855;
-  color:#f53855 ;
+  color: #f53855;
   padding: 13px;
   width: 150px;
   border-radius: 50px;
   margin-left: 30px;
+}
+
+@media (max-width: 1024px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__buttons {
+    order: -1;
+  }
+
+  .header__logo {
+    margin: 40px 0;
+  }
 }

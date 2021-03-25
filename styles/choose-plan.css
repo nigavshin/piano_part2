@@ -1,22 +1,26 @@
 .choose-plan {
   margin-top: 126px;
+  padding: 80px 0 150px 0;
+  margin: 0 auto;
+  max-width: 1140px;
 }
-.choose-plan__title {
-  text-align: center;
-}
+
 .choose-plan__description {
   text-align: center;
-  margin: 30px 0;
+  max-width: 555px;
+  margin: 20px auto 60px auto;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
 }
+
 .choose-plan__wrap {
   display: flex;
   justify-content: space-between;
   max-width: 1090px;
   margin: 0 auto;
 }
+
 .choose-plan__item {
   background: #ffffff;
   border: 2px solid #dddddd;
@@ -25,38 +29,52 @@
   max-width: 330px;
   width: 100%;
   padding: 80px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 760px;
 }
+
 .choose-plan__item:hover {
   border: 2px solid #f53838;
   cursor: pointer;
 }
+
 .choose-plan__ill-free {
   display: block;
   margin: 0 auto;
 }
-.choose-plan__list--item {
+
+.choose-plan__roster {
   margin-left: 70px;
+  max-height: 256px;
 }
+
 .choose-plan__list {
   display: flex;
   margin-bottom: 10px;
 }
+
 .choose-plan__text {
   margin-left: 20px;
   font-size: 14px;
   line-height: 30px;
   color: #4f5665;
 }
+
 .choose-plan__subtitle {
   text-align: center;
   font-size: 25px;
   line-height: 30px;
-  margin: 50px 0 20px 0;
+  margin-bottom: 20px;
 }
+
 .choose-plan__light {
   color: #4f5665;
   font-weight: 400;
 }
+
 .choose-plan__button {
   display: block;
   margin: 0 auto;
@@ -73,6 +91,7 @@
   color: #f53838;
   position: relative;
 }
+
 .choose-plan__button:hover {
   color: #ffffff;
   background: #f53838;

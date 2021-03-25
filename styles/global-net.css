@@ -1,6 +1,17 @@
 .global-net {
-  margin-top: 150px;
+  margin: 0 auto;
+  max-width: 1140px;
 }
-.global-net__lassmap{
-    margin-top: 150px;
+
+.global-net__lassmap {
+  margin: 150px auto 0 auto;
+}
+
+.global-net__title {
+  max-width: 555px;
+  margin: 0 auto;
+}
+.global-net__subtitle {
+  max-width: 555px;
+  margin: 0 auto;
 }
