@@ -141,3 +141,17 @@ blockquote {
     rgba(248, 248, 248, 0) 88.56%
   );
 }
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 414px) {
+  .title {
+    font-size: 26px;
+  }
+
+}

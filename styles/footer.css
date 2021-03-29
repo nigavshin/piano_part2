@@ -60,3 +60,54 @@
   line-height: 30px;
   color: #4f5665;
 }
+
+@media (max-width: 1024px) {
+  .footer__wrapper {
+    max-width: 824px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__wrapper {
+    max-width: 724px;
+    margin-top: 240px;
+  }
+
+  .footer__description {
+    max-width: 220px;
+  }
+
+  .footer__header {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 667px) {
+  .footer__wrapper {
+    max-width: 600px;
+    margin-top: 350px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer__about {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__header {
+    max-width: 320px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__subtitle {
+    margin-top: 50px;
+  }
+
+  .footer__wrapper {
+    max-width: 320px;
+    margin-top: 400px;
+  }
+}

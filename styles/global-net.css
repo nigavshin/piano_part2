@@ -8,10 +8,35 @@
 }
 
 .global-net__title {
-  max-width: 555px;
+  max-width: 320px;
   margin: 0 auto;
 }
 .global-net__subtitle {
   max-width: 555px;
   margin: 0 auto;
+}
+
+.global-net__sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .global-net {
+    max-width: 824px;
+  }
+}
+
+@media (max-width: 414px) {
+  .global-net__sponsors {
+    max-width: 320px;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .global-net__lassmap {
+    margin-bottom: 50px;
+  }
 }

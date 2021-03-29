@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>laslessVPN</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+      type="text/html"
+    />
   </head>
 
   <body>
@@ -36,6 +41,46 @@
             <a class="header__link" href="#">Help</a>
           </li>
         </ul>
+        <nav class="mobile-menu" ole="navigation">
+          <div id="mobile-menu__toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="mobile-menu__list">
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">About</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Features</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Pricing</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Testimonials</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Help</a>
+              </li>
+              <div class="mobile-menu__buttons">
+                <button
+                  class="header__button header__button--sign-in button"
+                  type="button"
+                >
+                  Sign in
+                </button>
+                <button
+                  class="header__button header__button--sign-up button"
+                  type="button"
+                >
+                  Sign up
+                </button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+
         <div class="header__buttons">
           <button
             class="header__button header__button--sign-in button"
@@ -199,7 +244,7 @@
                 height="165"
                 alt="illustration-free"
               />
-              <p class="choose-plan__description">Free Plan</p>
+              <p class="choose-plan__name-plan">Free Plan</p>
               <ul class="choose-plan__roster">
                 <li class="choose-plan__list">
                   <img
@@ -258,7 +303,7 @@
                 width="145"
                 height="165"
               />
-              <p class="choose-plan__description">Standart Plan</p>
+              <p class="choose-plan__name-plan">Standart Plan</p>
               <ul class="choose-plan__roster">
                 <li class="choose-plan__list">
                   <img
@@ -328,7 +373,7 @@
                 height="165"
                 alt="illustration-free"
               />
-              <p class="choose-plan__description">Premium Plan</p>
+              <p class="choose-plan__name-plan">Premium Plan</p>
               <ul class="choose-plan__roster">
                 <li class="choose-plan__list">
                   <img
@@ -418,13 +463,58 @@
             height="538"
             alt="global-lassmap"
           />
-          <img
-            class="global-net__sponsors"
-            src="./img/sponsored.svg"
-            width="1136"
-            height="538"
-            alt="logo-sponsors"
-          />
+          <ul class="global-net__sponsors">
+            <li class="global-net__list">
+              <a class="global-net__link" href="#"
+                ><img
+                  class="global-net__netflix"
+                  src="./img/netflix.svg"
+                  width="200"
+                  height="112"
+                  alt="netflix-logo"
+              /></a>
+            </li>
+            <li class="global-net__list">
+              <a class="global-net__link" href="#"
+                ><img
+                  class="global-net__reddit"
+                  src="./img/reddit.svg"
+                  width="156"
+                  height="51"
+                  alt="reddit-logo"
+              /></a>
+            </li>
+            <li class="global-net__list">
+              <a class="global-net__link" href="#"
+                ><img
+                  class="global-net__amazon"
+                  src="./img/amazon.svg"
+                  width="190"
+                  height="160"
+                  alt="amazon-logo"
+              /></a>
+            </li>
+            <li class="global-net__list">
+              <a class="global-net__link" href="#"
+                ><img
+                  class="global-net__discord"
+                  src="./img/discord.svg"
+                  width="187"
+                  height="63"
+                  alt="discord-logo"
+              /></a>
+            </li>
+            <li class="global-net__list">
+              <a class="global-net__link" href="#"
+                ><img
+                  class="global-net__spotify"
+                  src="./img/spotify.svg"
+                  width="171"
+                  height="51"
+                  alt="spotify-logo"
+              /></a>
+            </li>
+          </ul>
         </section>
       </div>
       <section class="trusted-customer">
@@ -435,100 +525,134 @@
           These are the stories of our customers who have joined us with great
           pleasure when using this crazy feature.
         </p>
-        <div class="trusted-customer__slider">
-          <div class="trusted-customer__item">
-            <div class="trusted-customer__datauser">
-              <img
-                class="trusted-customer__circle"
-                src="./img/riezh-robert.svg"
-                width="50"
-                height="50"
-                alt="riezh-robert"
-              />
-              <div class="trusted-customer__username">
-                <p class="trusted-customer__name">Viezh Robert</p>
-                <p class="trusted-customer__born">Warsaw, Poland</p>
-              </div>
-              <div class="trusted-customer__rating">
-                <p class="trusted-customer__text">4.5</p>
-                <img
-                  class="trusted-customer__stars"
-                  src="./img/star.svg"
-                  alt="star"
-                  width="16"
-                  height="16"
-                />
-              </div>
-            </div>
-            <blockquote class="trusted-customer__text">
-              “Wow... I am very happy to use this VPN, it turned out to be more
-              than my expectations and so far there have been no problems.
-              LaslesVPN always the best”.
-            </blockquote>
-          </div>
-          <div class="trusted-customer__item">
-            <div class="trusted-customer__datauser">
-              <img
-                class="trusted-customer__circle"
-                src="./img/yessica-christy.svg"
-                width="50"
-                height="50"
-                alt="yessica-christy"
-              />
-              <div class="trusted-customer__username">
-                <p class="trusted-customer__name">Yessica Christy</p>
-                <p class="trusted-customer__born">Shanxi, China</p>
-              </div>
-              <div class="trusted-customer__rating">
-                <p class="trusted-customer__text">4.5</p>
-                <img
-                  class="trusted-customer__stars"
-                  src="./img/star.svg"
-                  width="16"
-                  height="16"
-                  alt="star"
-                />
-              </div>
-            </div>
-            <blockquote class="trusted-customer__text">
-              “I like it because I like to travel far and still can connect with
-              high speed.”.
-            </blockquote>
-          </div>
-          <div class="trusted-customer__item">
-            <div class="trusted-customer__datauser">
-              <img
-                class="trusted-customer__circle"
-                src="./img/kim-young-jou.svg"
-                width="50"
-                height="50"
-                alt="kim-young-jou"
-              />
-              <div class="trusted-customer__username">
-                <p class="trusted-customer__name">Kim Young Jou</p>
-                <p class="trusted-customer__born">Seoul, South Korea</p>
-              </div>
-              <div class="trusted-customer__rating">
-                <p class="trusted-customer__text">4.5</p>
-                <img
-                  class="trusted-customer__stars"
-                  src="./img/star.svg"
-                  width="16"
-                  height="16"
-                  alt="star"
-                />
-              </div>
-            </div>
-            <blockquote class="trusted-customer__text">
-              “This is very unusual for my business that currently requires a
-              virtual private network that has high security.”.
-            </blockquote>
+        <div class="glide">
+          <div class="trusted-customer__slider-wrap" data-glide-el="track">
+            <ul class="trusted-customer__slider glide__slides">
+              <li class="trusted-customer__item glide__slide">
+                <div class="trusted-customer__datauser">
+                  <img
+                    class="trusted-customer__circle"
+                    src="./img/riezh-robert.svg"
+                    width="50"
+                    height="50"
+                    alt="riezh-robert"
+                  />
+                  <div class="trusted-customer__username">
+                    <p class="trusted-customer__name">Viezh Robert</p>
+                    <p class="trusted-customer__born">Warsaw, Poland</p>
+                  </div>
+                  <div class="trusted-customer__rating">
+                    <p class="trusted-customer__text">4.5</p>
+                    <img
+                      class="trusted-customer__stars"
+                      src="./img/star.svg"
+                      alt="star"
+                      width="16"
+                      height="16"
+                    />
+                  </div>
+                </div>
+                <blockquote class="trusted-customer__text">
+                  “Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best”.
+                </blockquote>
+              </li>
+              <li class="trusted-customer__item glide__slide">
+                <div class="trusted-customer__datauser">
+                  <img
+                    class="trusted-customer__circle"
+                    src="./img/yessica-christy.svg"
+                    width="50"
+                    height="50"
+                    alt="yessica-christy"
+                  />
+                  <div class="trusted-customer__username">
+                    <p class="trusted-customer__name">Yessica Christy</p>
+                    <p class="trusted-customer__born">Shanxi, China</p>
+                  </div>
+                  <div class="trusted-customer__rating">
+                    <p class="trusted-customer__text">4.5</p>
+                    <img
+                      class="trusted-customer__stars"
+                      src="./img/star.svg"
+                      width="16"
+                      height="16"
+                      alt="star"
+                    />
+                  </div>
+                </div>
+                <blockquote class="trusted-customer__text">
+                  “I like it because I like to travel far and still can connect
+                  with high speed.”.
+                </blockquote>
+              </li>
+              <li class="trusted-customer__item glide__slide">
+                <div class="trusted-customer__datauser">
+                  <img
+                    class="trusted-customer__circle"
+                    src="./img/kim-young-jou.svg"
+                    width="50"
+                    height="50"
+                    alt="kim-young-jou"
+                  />
+                  <div class="trusted-customer__username">
+                    <p class="trusted-customer__name">Kim Young Jou</p>
+                    <p class="trusted-customer__born">Seoul, South Korea</p>
+                  </div>
+                  <div class="trusted-customer__rating">
+                    <p class="trusted-customer__text">4.5</p>
+                    <img
+                      class="trusted-customer__stars"
+                      src="./img/star.svg"
+                      width="16"
+                      height="16"
+                      alt="star"
+                    />
+                  </div>
+                </div>
+                <blockquote class="trusted-customer__text">
+                  “This is very unusual for my business that currently requires
+                  a virtual private network that has high security.”.
+                </blockquote>
+              </li>
+              <li class="trusted-customer__item glide__slide">
+                <div class="trusted-customer__datauser">
+                  <img
+                    class="trusted-customer__circle"
+                    src="./img/kim-young-jou.svg"
+                    width="50"
+                    height="50"
+                    alt="kim-young-jou"
+                  />
+                  <div class="trusted-customer__username">
+                    <p class="trusted-customer__name">Kim Young Jou</p>
+                    <p class="trusted-customer__born">Seoul, South Korea</p>
+                  </div>
+                  <div class="trusted-customer__rating">
+                    <p class="trusted-customer__text">4.5</p>
+                    <img
+                      class="trusted-customer__stars"
+                      src="./img/star.svg"
+                      width="16"
+                      height="16"
+                      alt="star"
+                    />
+                  </div>
+                </div>
+                <blockquote class="trusted-customer__text">
+                  “This is very unusual for my business that currently requires
+                  a virtual private network that has high security.”.
+                </blockquote>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="trusted-customer__control">
+        <div class="trusted-customer__control" data-glide-el="controls">
           <button
-            class="trusted-customer__button button button--disabled"
+            class="trusted-customer__button button button--disabled glide__arrow glide__arrow--left"
             type="button"
+            data-glide-dir="<"
           >
             <img
               class="trusted-customer__arrow-left"
@@ -539,8 +663,9 @@
             />
           </button>
           <button
-            class="trusted-customer__button button button--active"
+            class="trusted-customer__button button button--active glide__arrow glide__arrow--right"
             type="button"
+            data-glide-dir=">"
           >
             <img
               class="trusted-customer__arrow-right"
@@ -674,5 +799,7 @@
         </nav>
       </div>
     </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./node_modules/@glidejs/glide/dist/glide.min.js"></script>
   </body>
 </html>

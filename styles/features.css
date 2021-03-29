@@ -5,7 +5,7 @@
   margin-top: 96px;
   margin: 0 auto;
   max-width: 1140px;
-  padding:95px 0 130px 0;
+  padding: 95px 0 130px 0;
 }
 
 .features__title {
@@ -39,3 +39,35 @@
   color: #4f5665;
   margin-left: 10px;
 }
+
+@media (max-width: 1024px) {
+  .features {
+    max-width: 824px;
+  }
+
+  .features__block {
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 812px) {
+  .features {
+    max-width: 724px;
+  }
+
+  .features__illustration-2 {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 667px) {
+  .features {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .features__block {
+    margin-bottom: 30px;
+  }
+}
+

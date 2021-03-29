@@ -56,3 +56,31 @@
   margin-top: 89px;
   margin-right: 2%;
 }
+
+@media (max-width: 1024px) {
+  .main-screen {
+    flex-direction: column;
+  }
+
+  .main-screen_wrap {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main-screen__illustration {
+    margin: 89px auto 0 auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .main-screen__title {
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .main-screen__text {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}

@@ -46,6 +46,10 @@
   margin: 0 auto;
 }
 
+.choose-plan__name-plan {
+  text-align: center;
+}
+
 .choose-plan__roster {
   margin-left: 70px;
   max-height: 256px;
@@ -95,4 +99,71 @@
 .choose-plan__button:hover {
   color: #ffffff;
   background: #f53838;
+}
+
+@media (max-width: 1024px) {
+  .choose-plan {
+    max-width: 824px;
+  }
+
+  .choose-plan__wrap {
+    max-width: 824px;
+  }
+
+  .choose-plan__item {
+    max-width: 265px;
+  }
+
+  .choose-plan__roster {
+    margin-left: 32px;
+    max-height: 160px;
+  }
+
+  .choose-plan__subtitle {
+    margin-top: 72px;
+  }
+}
+
+@media (max-width: 812px) {
+  .choose-plan {
+    max-width: 724px;
+  }
+
+  .choose-plan__wrap {
+    max-width: 724px;
+  }
+
+  .choose-plan__item {
+    max-width: 235px;
+  }
+
+  .choose-plan__roster {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 667px) {
+  .choose-plan__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose-plan__item {
+    margin-bottom: 30px;
+    max-width: 325px;
+  }
+
+  .choose-plan__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .choose-plan__roster {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 667px) {
+  .choose-plan__description {
+    max-width: 320px;
+  }
 }
