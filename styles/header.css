@@ -2,12 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 .header {
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 .header__menu {
@@ -143,7 +141,6 @@
 /* БУРГЕР */
 @media (max-width: 1024px) {
   .header__container {
-    max-width: 824px;
     flex-direction: column;
   }
 
@@ -153,12 +150,6 @@
 
   .header__logo {
     margin: 40px 0;
-  }
-}
-
-@media (max-width: 812px) {
-  .header__container {
-    max-width: 700px;
   }
 }
 
@@ -185,12 +176,6 @@
 
   .mobile-menu__buttons {
     margin-top: 50px;
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 414px) {
-  .header__container {
     max-width: 300px;
   }
 }

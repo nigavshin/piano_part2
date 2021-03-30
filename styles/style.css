@@ -142,14 +142,33 @@ blockquote {
   );
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
 @media (max-width: 1024px) {
   .title {
     font-size: 30px;
   }
 
+  .container {
+    max-width: 824px;
+  }
+}
+
+@media (max-width: 812px) {
+  .container {
+    max-width: 612px;
+  }
 }
 
 @media (max-width: 414px) {
+
+  .container {
+    max-width: 300px;
+  }
+
   .title {
     font-size: 26px;
   }

@@ -1,21 +1,17 @@
-.main {
-  position: relative;
-}
-
 .main-screen {
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  padding: 60px 0 120px 0;
 }
 
 .main-screen_wrap {
   width: 555px;
   max-width: 100%;
-  margin-left: 6%;
 }
 
 .main-screen__title {
-  margin-top: 130px;
+  margin-top: 56px;
   font-weight: 500;
   font-size: 50px;
   line-height: 70px;
@@ -31,7 +27,7 @@
 .main-screen__button {
   background-color: #f53838;
   color: #ffffff;
-  padding: 18px;
+  padding: 21px;
   width: 250px;
   border-radius: 10px;
   font-weight: 600;
@@ -53,8 +49,9 @@
 }
 
 .main-screen__illustration {
-  margin-top: 89px;
-  margin-right: 2%;
+  position: relative;
+  left: 70px;
+  top: 25px;
 }
 
 @media (max-width: 1024px) {
@@ -64,7 +61,6 @@
 
   .main-screen_wrap {
     text-align: center;
-    margin: 0 auto;
   }
 
   .main-screen__illustration {

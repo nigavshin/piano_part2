@@ -3,9 +3,7 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 96px;
-  margin: 0 auto;
-  max-width: 1140px;
-  padding: 95px 0 130px 0;
+  padding: 94px 0 130px 0;
 }
 
 .features__title {
@@ -41,9 +39,6 @@
 }
 
 @media (max-width: 1024px) {
-  .features {
-    max-width: 824px;
-  }
 
   .features__block {
     max-width: 330px;

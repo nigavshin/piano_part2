@@ -1,8 +1,6 @@
 .choose-plan {
   margin-top: 126px;
   padding: 80px 0 150px 0;
-  margin: 0 auto;
-  max-width: 1140px;
 }
 
 .choose-plan__description {
@@ -14,11 +12,16 @@
   line-height: 30px;
 }
 
+.choose-plan__cta {
+  margin-top: auto;
+}
+
 .choose-plan__wrap {
   display: flex;
   justify-content: space-between;
   max-width: 1090px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .choose-plan__item {
@@ -28,12 +31,12 @@
   border-radius: 10px;
   max-width: 330px;
   width: 100%;
-  padding: 80px 0 50px 0;
+  padding: 80px 70px 50px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  justify-content: space-between;
   height: 760px;
+  max-height: 100%;
 }
 
 .choose-plan__item:hover {
@@ -46,13 +49,20 @@
   margin: 0 auto;
 }
 
+.choose-plan__text-wrap {
+  margin-top: 25px;
+}
+
 .choose-plan__name-plan {
   text-align: center;
+  font-weight: 600;
+font-size: 18px;
+line-height: 30px;
 }
 
 .choose-plan__roster {
-  margin-left: 70px;
   max-height: 256px;
+  margin-top: 28px;
 }
 
 .choose-plan__list {
@@ -102,10 +112,6 @@
 }
 
 @media (max-width: 1024px) {
-  .choose-plan {
-    max-width: 824px;
-  }
-
   .choose-plan__wrap {
     max-width: 824px;
   }
@@ -115,7 +121,6 @@
   }
 
   .choose-plan__roster {
-    margin-left: 32px;
     max-height: 160px;
   }
 
@@ -125,9 +130,7 @@
 }
 
 @media (max-width: 812px) {
-  .choose-plan {
-    max-width: 724px;
-  }
+
 
   .choose-plan__wrap {
     max-width: 724px;
@@ -135,10 +138,6 @@
 
   .choose-plan__item {
     max-width: 235px;
-  }
-
-  .choose-plan__roster {
-    margin-left: 25px;
   }
 }
 
@@ -155,10 +154,6 @@
 
   .choose-plan__item:last-child {
     margin-bottom: 0;
-  }
-
-  .choose-plan__roster {
-    margin-left: 70px;
   }
 }
 
