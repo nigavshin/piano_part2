@@ -6,7 +6,7 @@ const slider = new Glide('.glide', {
     // autoplay:2000,
     focusAt:0,
     bound:true,
-
+    
     peek: {
         before: 0,
         after: 240,

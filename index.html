@@ -534,7 +534,7 @@
             data-glide-el="track"
           >
             <ul class="trusted-customer__slider glide__slides">
-              <li class="trusted-customer__item glide__slide">
+              <li class="trusted-customer__item glide__slide glide__slide--active">
                 <div class="trusted-customer__datauser">
                   <img
                     class="trusted-customer__circle"
@@ -653,38 +653,44 @@
               </li>
             </ul>
           </div>
-          <div class="glide__bullets" data-glide-el="controls[nav]">
-            <button class="glide__bullet" data-glide-dir="=0"></button>
-            <button class="glide__bullet" data-glide-dir="=1"></button>
-            <button class="glide__bullet" data-glide-dir="=2"></button>
-          </div>
-          <div class="trusted-customer__control" data-glide-el="controls">
-            <button
-              class="trusted-customer__button button button--disabled glide__arrow glide__arrow--left"
-              type="button"
-              data-glide-dir="<"
+          <div class="trusted-customer__elements-control">
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet glide__bullet--active" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+              <button class="glide__bullet" data-glide-dir="=3"></button>
+            </div>
+            <div
+              class="trusted-customer__control glide__arrows"
+              data-glide-el="controls"
             >
-              <img
-                class="trusted-customer__arrow-left"
-                src="./img/arrow-red.svg"
-                width="30"
-                height="30"
-                alt="arrow-left"
-              />
-            </button>
-            <button
-              class="trusted-customer__button button button--active glide__arrow glide__arrow--right"
-              type="button"
-              data-glide-dir=">"
-            >
-              <img
-                class="trusted-customer__arrow-right"
-                src="./img/arrow-white.svg"
-                width="30"
-                height="30"
-                alt="arrow-right"
-              />
-            </button>
+              <button
+                class="trusted-customer__button button button--disabled glide__arrow glide__arrow--left"
+                type="button"
+                data-glide-dir="<"
+              >
+                <img
+                  class="trusted-customer__arrow-left"
+                  src="./img/arrow-red.svg"
+                  width="30"
+                  height="30"
+                  alt="arrow-left"
+                />
+              </button>
+              <button
+                class="trusted-customer__button button button--active glide__arrow glide__arrow--right"
+                type="button"
+                data-glide-dir=">"
+              >
+                <img
+                  class="trusted-customer__arrow-right"
+                  src="./img/arrow-white.svg"
+                  width="30"
+                  height="30"
+                  alt="arrow-right"
+                />
+              </button>
+            </div>
           </div>
         </div>
       </section>
