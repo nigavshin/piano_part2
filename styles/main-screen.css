@@ -65,6 +65,13 @@
 
   .main-screen__illustration {
     margin: 89px auto 0 auto;
+    left: 20px;
+  }
+}
+
+@media (max-width: 667px) {
+  .main-screen__illustration {
+    width: 60%;
   }
 }
 

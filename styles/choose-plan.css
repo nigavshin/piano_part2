@@ -112,12 +112,21 @@ line-height: 30px;
 }
 
 @media (max-width: 1024px) {
-  .choose-plan__wrap {
-    max-width: 824px;
-  }
+
 
   .choose-plan__item {
-    max-width: 265px;
+    margin-bottom: 30px;
+  }
+
+  .choose-plan__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .choose-plan__wrap {
+    max-width: 824px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .choose-plan__roster {
@@ -136,25 +145,6 @@ line-height: 30px;
     max-width: 724px;
   }
 
-  .choose-plan__item {
-    max-width: 235px;
-  }
-}
-
-@media (max-width: 667px) {
-  .choose-plan__wrap {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .choose-plan__item {
-    margin-bottom: 30px;
-    max-width: 325px;
-  }
-
-  .choose-plan__item:last-child {
-    margin-bottom: 0;
-  }
 }
 
 @media (max-width: 667px) {
