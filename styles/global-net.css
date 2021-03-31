@@ -18,11 +18,16 @@
   margin-top: 70px;
 }
 
+@media (max-width: 667px) {
+  .global-net__lassmap {
+    width: 90%;
+  }
+}
+
 @media (max-width: 414px) {
   .global-net__sponsors {
     max-width: 320px;
     flex-direction: column;
-
     margin: 0 auto;
   }
 

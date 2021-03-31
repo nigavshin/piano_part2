@@ -34,6 +34,7 @@
   font-size: 16px;
   margin-top: 50px;
   position: relative;
+  z-index: 200;
 }
 
 .main-screen__button::after {
@@ -46,6 +47,7 @@
   background: rgba(245, 56, 56, 0.35);
   filter: blur(54px);
   border-radius: 10px;
+  z-index: -100;
 }
 
 .main-screen__illustration {

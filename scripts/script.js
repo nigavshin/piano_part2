@@ -6,7 +6,7 @@ const slider = new Glide('.glide', {
     // autoplay:2000,
     focusAt:0,
     bound:true,
-    
+
     peek: {
         before: 0,
         after: 240,
@@ -16,16 +16,14 @@ const slider = new Glide('.glide', {
     breakpoints: {
         1024: {
         perView: 1,
+             peek: {
+            before: 0,
+            after: 0,
+                
+    },
         },
 
-        667: {
-            peek: {
-                before: 0,
-                after: 0,
-                
-            },
-        },
-    }
+    },
 
 })
 
