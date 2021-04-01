@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1140px;
-  margin: 0 auto;
 }
+
 .header {
-  margin-top: 60px;
+  margin-top: 45px;
 }
+
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -17,17 +17,176 @@
   font-size: 16px;
   line-height: 19px;
 }
+
 .header__link {
   color: #4f5665;
 }
+
+.header__link:hover {
+  color: #f53855;
+}
+
 .header__button {
   font-weight: 600;
 }
+
 .header__button--sign-up {
   border: 1px solid #f53855;
-  color:#f53855 ;
+  color: #f53855;
   padding: 13px;
   width: 150px;
   border-radius: 50px;
   margin-left: 30px;
+}
+
+/* БУРГЕР */
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+#mobile-menu__toggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 100;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#mobile-menu__toggle a {
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+#mobile-menu__toggle a:hover {
+  color: #f53855;
+}
+
+#mobile-menu__toggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 200;
+}
+
+#mobile-menu__toggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 100;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#mobile-menu__toggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#mobile-menu__toggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#mobile-menu__toggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#mobile-menu__toggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#mobile-menu__toggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#mobile-menu__list {
+  position: absolute;
+  width: 667px;
+  margin: -100px 0 0 -50px;
+  padding: 140px 50px 100px 70px;
+  background: #ededed;
+  transform-origin: 0% 0%;
+  transform: translate(-150%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#mobile-menu__list li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#mobile-menu__toggle input:checked ~ ul {
+  transform: none;
+}
+/* БУРГЕР */
+@media (max-width: 1024px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__buttons {
+    order: -1;
+  }
+
+  .header__logo {
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 667px) {
+  .mobile-menu {
+    visibility: visible;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__container {
+    max-width: 300px;
+  }
+
+  .header__buttons {
+    display: none;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  .mobile-menu__buttons {
+    margin-top: 50px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mobile-menu {
+    left: -30px;
+  }
+
+  .header__container {
+    align-items: flex-end;
+  }
+  #mobile-menu__list {
+    padding: 140px 50px 300px 70px;
+  }
 }

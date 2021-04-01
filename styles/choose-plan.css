@@ -1,9 +1,154 @@
 .choose-plan {
- margin-top: 126px;
+  margin-top: 126px;
+  padding: 80px 0 150px 0;
 }
-.choose-plan__title{
-    text-align: center;
+
+.choose-plan__description {
+  text-align: center;
+  max-width: 555px;
+  margin: 20px auto 60px auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
 }
-.choose-plan__description{
-    text-align: center;
+
+.choose-plan__cta {
+  margin-top: auto;
+}
+
+.choose-plan__wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1090px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.choose-plan__item {
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  max-width: 330px;
+  width: 100%;
+  padding: 80px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 760px;
+  max-height: 100%;
+}
+
+.choose-plan__item:hover {
+  border: 2px solid #f53838;
+  cursor: pointer;
+}
+
+.choose-plan__ill-free {
+  display: block;
+  margin: 0 auto;
+}
+
+.choose-plan__text-wrap {
+  margin-top: 25px;
+}
+
+.choose-plan__name-plan {
+  text-align: center;
+  font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+}
+
+.choose-plan__roster {
+  max-height: 256px;
+  margin-top: 28px;
+}
+
+.choose-plan__list {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.choose-plan__text {
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.choose-plan__subtitle {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.choose-plan__light {
+  color: #4f5665;
+  font-weight: 400;
+}
+
+.choose-plan__button {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #f53838;
+  max-width: 178px;
+  width: 100%;
+  padding: 13px;
+  background: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f53838;
+  position: relative;
+}
+
+.choose-plan__button:hover {
+  color: #ffffff;
+  background: #f53838;
+}
+
+@media (max-width: 1024px) {
+
+
+  .choose-plan__item {
+    margin-bottom: 30px;
+  }
+
+  .choose-plan__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .choose-plan__wrap {
+    max-width: 824px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .choose-plan__roster {
+    max-height: 160px;
+  }
+
+  .choose-plan__subtitle {
+    margin-top: 72px;
+  }
+}
+
+@media (max-width: 812px) {
+
+
+  .choose-plan__wrap {
+    max-width: 724px;
+  }
+
+}
+
+@media (max-width: 667px) {
+  .choose-plan__description {
+    max-width: 320px;
+  }
 }

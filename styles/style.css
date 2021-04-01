@@ -3,17 +3,23 @@
 @import url("./advantages.css");
 @import url("./features.css");
 @import url("./choose-plan.css");
+@import url("./global-net.css");
+@import url("./trusted-customer.css");
+@import url("./subscribe.css");
+@import url("./footer.css");
 
 @font-face {
   font-family: "Rubik", sans-serif;
   src: url(./fonts/Rubik-Regular.ttf);
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Rubik", sans-serif;
   src: url(./fonts/Rubik-Medium.ttf);
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Rubik", "Arial", sans-serif;
   src: url(./fonts/Rubik-Bold.ttf);
@@ -26,7 +32,6 @@ body {
   padding: 0;
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
-  background-color: #f6f6f6;
 }
 
 .visually-hidden {
@@ -44,7 +49,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -96,17 +103,74 @@ button {
   text-shadow: none;
   border: 0;
 }
+
 button:hover {
   cursor: pointer;
 }
+
 * {
   -webkit-text-size-adjust: none;
   box-sizing: border-box;
 }
+
 .title {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 50px;
   color: #0b132a;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+.main__linbckgnd {
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .container {
+    max-width: 824px;
+  }
+}
+
+@media (max-width: 812px) {
+  .container {
+    max-width: 612px;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .container {
+    max-width: 300px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
 }
