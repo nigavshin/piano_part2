@@ -76,6 +76,12 @@
   .main-screen__illustration {
     width: 60%;
   }
+
+  .main-screen__subtitle,
+  .main-screen__text {
+    max-width: 350px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 414px) {
